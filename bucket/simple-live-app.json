@@ -11,7 +11,6 @@
             "extra/vcredist"
         ]
     },
-    "depends": "extra/vcredist2022",
     "disable_checkver": {
         "url": "https://github.com/xiaoyaocz/dart_simple_live/releases",
         "regex": "v(?<ver>\\d*\\.\\d*\\.\\d*).*\\+(?<number>\\d*)-",
