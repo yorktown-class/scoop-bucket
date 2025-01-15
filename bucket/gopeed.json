@@ -1,0 +1,30 @@
+{
+	"version": "1.0.0",
+	"description": "self-host gopeed",
+	"homepage": "https://gitea.yanghong.icu:10443/yanghong/-/packages/generic/gopeed",
+	"license": " LGPL-3.0-only",
+	"checkver": {
+		"url": "https://gitea.yanghong.icu:10443/api/v1/packages/yanghong?page=1&type=generic&q=gopeed",
+		"jsonpath": "$[0].version"
+	},
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://gitea.yanghong.icu:10443/api/packages/yanghong/generic/gopeed/$version/gopeed-$version.zip"
+			}
+		}
+	},
+	"architecture": {
+		"64bit": {
+			"url": "https://gitea.yanghong.icu:10443/api/packages/yanghong/generic/gopeed/1.6.2/gopeed-1.6.2.zip",
+			"hash": "bd1cc852716ed2da2436a52a48c67d99be7e58d834ff51099e37c7ecefbb6cc8"
+		}
+	},
+	"shortcuts": [
+		[
+			"gopeed.exe",
+			"gopeed"
+		]
+	],
+	"persist": "data/flutter_assets/assets/extenstion"
+}
