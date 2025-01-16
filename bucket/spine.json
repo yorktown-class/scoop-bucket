@@ -20,9 +20,10 @@
             "hash": "2d9aefb34b2f25f7b12a09da4f0ce543ccd44ce11115aca7c29484fa24cb03a8"
         }
     },
+    "extract_dir": "Spine pro 3.8.75 Win x64",
     "shortcuts": [
         [
-            "spine.exe",
+            "Spine.exe",
             "spine"
         ]
     ]
