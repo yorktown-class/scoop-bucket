@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "description": "self-host AzurLanePaintingTool",
+    "homepage": "https://gitea.yanghong.icu:10443/yanghong/-/packages/generic/azur-lane-painting-tool",
+    "license": " LGPL-3.0-only",
+    "checkver": {
+        "url": "https://gitea.yanghong.icu:10443/api/v1/packages/yanghong?page=1&type=generic&q=azur-lane-painting-tool",
+        "jsonpath": "$[0].version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gitea.yanghong.icu:10443/api/packages/yanghong/generic/azur-lane-painting-tool/$version/azur-lane-painting-tool.7z"
+            }
+        },
+        "shortcuts": [
+            [
+                "AzurLanePaintingTool[ALPT]-$version.exe",
+                "AzurLanePaintingTool"
+            ]
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://gitea.yanghong.icu:10443/api/packages/yanghong/generic/azur-lane-painting-tool/1.3/azur-lane-painting-tool-1.3.7z",
+            "hash": "bd1cc852716ed2da2436a52a48c67d99be7e58d834ff51099e37c7ecefbb6cc8"
+        }
+    },
+    "shortcuts": [
+        [
+            "AzurLanePaintingTool[ALPT]-1.5.0.exe",
+            "AzurLanePaintingTool"
+        ]
+    ]
+}
